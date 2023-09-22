@@ -1,6 +1,47 @@
-h1 {
-    color: orange;
-    border: groove 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
+@font-face {
+    font-family: 'chozo_cypherregular';
+    src: url('fonts/chozo-cypher.woff2') format('woff2'),
+         url('fonts/chozo-cypher.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'supermetroid';
+    src: url('fonts/super-metroid-menu.woff2') format('woff2'),
+         url('fonts/super-metroid-menu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#img {
+    margin-top: 5px;
+    position: inherit;
+}
+/* FISH FISH FISH FISH*/
+#header {
+    background-image: url(imgs/bg.png);
+    margin: -8px;
+    margin-bottom: auto;
+    color: white;
+    border-radius: 5%;
+    border: solid 12px transparent;
+    border-image: url(imgs/border-remove.png) 64 round;
+    background-color: black;
+    font-family: 'supermetroid';
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+body {
+    background-color: black;
+    font-family:  Arial, sans-serif;
+}
+
+.section {
+
+    background-color: black;
 }
