@@ -1,0 +1,36 @@
+body{
+    background-image: url(imgs/background2.png);
+}
+
+.trick {
+    background-image: url("imgs/bg.png");
+    border: solid 12px transparent;
+    border-image: url(imgs/border-remove.png) 64 round;
+    border-radius: 2%; 
+    position: absolute;
+}
+
+.left {
+    margin-right: 50%;
+}
+
+.right {
+    margin-left: 50%;
+}
+
+#lwj, #rwj {
+    height: auto;
+    width: 200px;
+    margin-left: 25%;
+
+}
+
+.explaination {
+    text-align: center;
+}
+
+.name {
+    font-size: 2.3rem;
+    font-family: "supermetroid";
+    text-align: center;
+}

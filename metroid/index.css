@@ -1,0 +1,35 @@
+body {
+    background-image: url(imgs/background.png);
+}
+/* FISH FISH FISH FISH*/
+
+#img {
+    margin-top: 5px;
+    position: inherit;
+}
+
+#header {
+    background-image: url(imgs/bg.png);
+    margin: 5%;
+    margin-top: 1%;
+    color: white;
+    border-radius: 1%;
+    border: solid 12px transparent;
+    border-image: url(imgs/border-remove.png) 64 round;
+    background-color: black;
+    font-family: 'supermetroid';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.section {
+    font-size: 1.3rem;
+    text-align: center;
+}
+#sections {
+    text-align: center;
+    border-radius: 2%;
+    border: solid 12px;
+    border-image: url(imgs/border-remove.png) 64 round;
+    background-color: red;
+}
