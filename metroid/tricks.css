@@ -2,27 +2,50 @@ body{
     background-image: url(imgs/background2.png);
 }
 
+h1 {
+    font-family: supermetroid;
+    text-align: center;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .trick {
     background-image: url("imgs/bg.png");
     border: solid 12px transparent;
     border-image: url(imgs/border-remove.png) 64 round;
-    border-radius: 2%; 
-    position: absolute;
+    border-radius: 5%;
+    flex-grow: 1;
+    flex-basis: 150px;
+    margin: 10px;
 }
 
-.left {
-    margin-right: 50%;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
-.right {
-    margin-left: 50%;
+.grid-container {
+    display: grid;
+    row-gap: 50px;
 }
 
+@media (max-width: 800px) {
+    .flex-container {
+    flex-direction: column;
+    }
+}
 #lwj, #rwj {
     height: auto;
     width: 200px;
-    margin-left: 25%;
+}
 
+#shinespark {
+    height: auto;
+    width: 250px;
 }
 
 .explaination {
