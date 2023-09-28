@@ -30,3 +30,8 @@ img {
     image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
 }
+
+.chozo {
+    font-family: "chozo_cypherregular";
+}
+

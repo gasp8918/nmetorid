@@ -1,11 +1,17 @@
 body {
     background-image: url(imgs/background.png);
+    overflow: hidden;
 }
 /* FISH FISH FISH FISH*/
 
 #img {
     margin-top: 5px;
     position: inherit;
+}
+
+#head {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 #header {
@@ -24,10 +30,15 @@ body {
 
 .section {
     font-size: 1.3rem;
+    background-color: black;
     text-align: center;
+    font-weight: bold;
 }
 #sections {
+    font-weight: 500;
+    
     text-align: center;
+    background-image: url(imgs/bg.png);
     border-radius: 2%;
     border: solid 12px;
     border-image: url(imgs/border-remove.png) 64 round;
